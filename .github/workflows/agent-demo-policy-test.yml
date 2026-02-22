@@ -1,4 +1,4 @@
-name: N8N Demo - Policy Creation Test
+name: agent demo - Policy Creation Test
 
 on:
   workflow_dispatch:
