@@ -2,8 +2,8 @@ name: agent demo - Policy Creation Test
 
 on:
   workflow_dispatch:
-    description: 'Manual trigger to run the N8N Demo policy creation test'
-
+  repository_dispatch:
+    types: [run-ci-agent-test]
 jobs:
   test:
     runs-on: ubuntu-latest
